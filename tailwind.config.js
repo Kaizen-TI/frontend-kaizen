@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx}", "./node_modules/tw-elements-react/dist/js/**/*.js"],
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/tw-elements-react/dist/js/**/*.js"
+  ],
   mode: "jit",
   theme: {
     extend: {
@@ -8,6 +12,8 @@ module.exports = {
         primary: "#f40202",
         secondary: "#7b0000",
         dimWhite: "rgba(255, 255, 255, 0.7)",
+        ligthWhite: "#ffffff",
+        midDark: "#171717",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
@@ -25,3 +31,4 @@ module.exports = {
   },
   plugins: [require("tw-elements-react/dist/plugin.cjs")],
 };
+

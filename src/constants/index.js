@@ -1,3 +1,4 @@
+import { preview } from "vite";
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
@@ -50,9 +51,41 @@ export const features = [
     content:
       "potencializar os resultados com o tráfego pago. fazer anúncios que direcionam ao site, divulgando produtos e serviços. Patrocinar posts em redes sociais como Instagram Ads e Facebook Ads ou mesmo vídeos no TikTok Ads.",
   },
+  // {
+  //   id: "feature-4",
+  //   icon: send,
+  //   title: "Desenvolvimento de sites, Blogs e Landing Pages",
+  //   content:
+  //     "desenvolvimento de sites, blogs e páginas de captura com o objetivo de conversão para estar de forma mais presente e profissional no mundo digital e passar mais credibilidade para seus clientes."
+  // },
+];
+
+
+export const sliderServices = [
   {
-    id: "feature-4",
-    icon: send,
+    id: "slide-1",
+    imagem:"https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp",
+    title: "Serviços de Design Gráfico",
+    content:
+      "Criação de logotipos, outdoors, banners, cartões de visita, panfletos, embalagens e peças gráficas em geral de marcas, produtos ou serviços. Criação visual de sites, blogs, banners, panfletos digitais e peças publicitárias digitais em geral.",
+  },
+  {
+    id: "slide-2",
+    imagem:"https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp",
+    title: "Gestão e monitoramento de redes sociais",
+    content:
+      "criar estrategicamente posts, atendimento ao cliente, copywriting dos post, publicar e analisar os conteúdos que são ofertados nas mídias sociais, como Instagram, Facebook ou LinkedIn.",
+  },
+  {
+    id: "slide-3",
+    imagem:"https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp",
+    title: "Tráfego Pago (Google Ads, Facebook Ads, etc)",
+    content:
+      "potencializar os resultados com o tráfego pago. fazer anúncios que direcionam ao site, divulgando produtos e serviços. Patrocinar posts em redes sociais como Instagram Ads e Facebook Ads ou mesmo vídeos no TikTok Ads.",
+  },
+  {
+    id: "slide-4",
+    imagem:"https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp",
     title: "Desenvolvimento de sites, Blogs e Landing Pages",
     content:
       "desenvolvimento de sites, blogs e páginas de captura com o objetivo de conversão para estar de forma mais presente e profissional no mundo digital e passar mais credibilidade para seus clientes."

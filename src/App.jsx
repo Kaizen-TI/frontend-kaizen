@@ -9,8 +9,6 @@ import Servicos from "./pages/servicos/Servicos";
 
 function App() {
   return (
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
         <Router>
           <Routes>
             <Route path="/" element={<Layout />}>
@@ -21,9 +19,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
             </Route>
           </Routes>
-        </Router>
-      </div>
-    </div>
+        </Router>   
   );
 }
 /*
