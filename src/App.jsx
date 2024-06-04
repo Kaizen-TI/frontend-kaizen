@@ -1,29 +1,25 @@
 import styles from "./style";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./layout/Layout";
-import Home from "./pages/home/Home";
-import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact";
-import Portfolio from "./pages/Portfolio/Portfolio";
-import Servicos from "./pages/servicos/Servicos";
+import HomePage from "./pages/HomePage/HomePage"; 
+import AboutPage from "./pages/AboutPage/AboutPage";
+import ContactPage from "./pages/ContactPage/ContactPage";
+import PortfolioPage from "./pages/PortfolioPage/PortfolioPage";
+import ServicePage from "./pages/ServicePage/ServicePage";
 
 function App() {
   return (
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
         <Router>
           <Routes>
             <Route path="/" element={<Layout />}>
-              <Route index element={<Home />} />
-              <Route path="/servicos" element={<Servicos />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route index element={<HomePage />} />
+              <Route path="/servicos" element={<ServicePage />} />
+              <Route path="/portfolio" element={<PortfolioPage />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/contact" element={<ContactPage />} />
             </Route>
           </Routes>
         </Router>
-      </div>
-    </div>
   );
 }
 /*

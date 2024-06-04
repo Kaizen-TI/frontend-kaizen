@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, clienteBee, clienteJutaLuz  } from "../assets";
 
 export const navLinks = [
   {
@@ -50,13 +50,13 @@ export const features = [
     content:
       "potencializar os resultados com o tráfego pago. fazer anúncios que direcionam ao site, divulgando produtos e serviços. Patrocinar posts em redes sociais como Instagram Ads e Facebook Ads ou mesmo vídeos no TikTok Ads.",
   },
-  {
-    id: "feature-4",
-    icon: send,
-    title: "Desenvolvimento de sites, Blogs e Landing Pages",
-    content:
-      "desenvolvimento de sites, blogs e páginas de captura com o objetivo de conversão para estar de forma mais presente e profissional no mundo digital e passar mais credibilidade para seus clientes."
-  },
+  // {
+  //   id: "feature-4",
+  //   icon: send,
+  //   title: "Desenvolvimento de sites, Blogs e Landing Pages",
+  //   content:
+  //     "desenvolvimento de sites, blogs e páginas de captura com o objetivo de conversão para estar de forma mais presente e profissional no mundo digital e passar mais credibilidade para seus clientes."
+  // },
 ];
 
 export const feedback = [
@@ -203,18 +203,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: clienteBee,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: clienteJutaLuz,
   },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
+  // {
+  //   id: "client-3",
+  //   logo: coinbase,
+  // },
+  // {
+  //   id: "client-4",
+  //   logo: dropbox,
+  // },
 ];

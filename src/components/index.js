@@ -9,7 +9,13 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Contact from "./Contact";
-import WhatsAppBtn from"./WhatsAppBtn"
+import WhatsAppBtn from"./WhatsAppBtn";
+import Precing from "./Precing";
+import Services from "./Servicos";
+import FAQ from "./FAQ"
+import CardGallery from './CardGallery';
+import About from "./About";
+
 
 export {
   Navbar,
@@ -23,5 +29,10 @@ export {
   Testimonials,
   Hero,
   Contact,
-  WhatsAppBtn
+  WhatsAppBtn,
+  Precing,
+  Services,
+  FAQ,
+  CardGallery,
+  About
 };
