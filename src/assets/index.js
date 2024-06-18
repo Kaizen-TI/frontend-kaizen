@@ -24,6 +24,17 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import logotipo from "./logotipo.png";
+import slidedgrafico from "./images/carousel/1-designGrafico.jpg";
+import slideduiux from "./images/carousel/2-uiuxDesign.jpg";
+import slideredesocial from "./images/carousel/3-redesSociais.jpg";
+import slidetrafegopago from "./images/carousel/4-trafegoPago.jpg";
+import slidedesenvolvimento from "./images/carousel/5-desenvolvimentoSoftware.jpg";
+import slidehospedagem from "./images/carousel/6-hospedagem.jpg";
+import slidedatascience from "./images/carousel/7-datascience.png"
+import clienteBee from "./clientes/clienteBee.png";
+import clienteJutaLuz from "./clientes/clienteJutaLuz.jpg"
+import clienteMoxilann from "./clientes/moxilann.jpg"
+import clienteAarteyatu from "./clientes/aarteyetu.jpg"
 
 export {
   airbnb,
@@ -51,5 +62,16 @@ export {
   people01,
   people02,
   people03,
-  logotipo
+  logotipo,
+  slidedgrafico,
+  slideduiux,
+  slideredesocial,
+  slidetrafegopago,
+  slidedesenvolvimento,
+  slidehospedagem,
+  slidedatascience,
+  clienteBee,
+  clienteJutaLuz,
+  clienteMoxilann,
+  clienteAarteyatu,
 };
