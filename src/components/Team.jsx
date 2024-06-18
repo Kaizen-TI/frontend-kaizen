@@ -1,6 +1,6 @@
 const people = [
     {
-      name: 'João Pedro',
+      name: '-- --',
       role: 'Co-Founder / CEO',
       imageUrl:
         'https://img.freepik.com/fotos-gratis/balao-unico-azul-com-um-cordao_53876-123018.jpg?t=st=1717467007~exp=1717470607~hmac=07c5066d5b6a98ee4d8c5c67e97ad1e865cd470857f1febb3f8545b36353dd9d&w=826',
@@ -13,7 +13,7 @@ const people = [
       },
       {
         name: 'João Capango',
-        role: 'Co-Founder / Diretor de Recursos Humanos',
+        role: 'Co-Founder / DR. Administrativo',
         imageUrl:
           'https://img.freepik.com/fotos-gratis/balao-unico-azul-com-um-cordao_53876-123018.jpg?t=st=1717467007~exp=1717470607~hmac=07c5066d5b6a98ee4d8c5c67e97ad1e865cd470857f1febb3f8545b36353dd9d&w=826',
       },

@@ -2,6 +2,12 @@ import React from "react";
 import styles from "../style";
 
 export default function Precing() {
+  const handleWhatsAppClick = () => {
+    // Lógica para abrir o WhatsApp com a mensagem pré-preenchida
+    const whatsappURL = "https://wa.me/244948880797";
+    window.open(whatsappURL);
+  };
+
   return (
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
@@ -313,6 +319,8 @@ export default function Precing() {
                   </div>
                   <a
                     href="javascript:void(0)"
+                    onClick={handleWhatsAppClick}  
+                    target="_blank"
                     className="
                   w-full
                   block
@@ -891,6 +899,8 @@ export default function Precing() {
                   </div>
                   <a
                     href="#contact"
+                    onClick={handleWhatsAppClick}  
+                    target="_blank"
                     className="
                   w-full
                   block
@@ -1468,12 +1478,13 @@ export default function Precing() {
                   </div>
                   <a
                     href="javascript:void(0)"
+                    onClick={handleWhatsAppClick}  target="_blank"
                     className="
-                  w-full
-                  block
-                  text-base
-                  font-semibold
-                  text-primary
+                    w-full
+                    block
+                    text-base
+                    font-semibold
+                    text-primary
                   bg-transparent
                   border border-[#D4DEFF]
                   rounded-md

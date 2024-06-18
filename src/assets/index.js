@@ -33,6 +33,8 @@ import slidehospedagem from "./images/carousel/6-hospedagem.jpg";
 import slidedatascience from "./images/carousel/7-datascience.png"
 import clienteBee from "./clientes/clienteBee.png";
 import clienteJutaLuz from "./clientes/clienteJutaLuz.jpg"
+import clienteMoxilann from "./clientes/moxilann.jpg"
+import clienteAarteyatu from "./clientes/aarteyetu.jpg"
 
 export {
   airbnb,
@@ -70,4 +72,6 @@ export {
   slidedatascience,
   clienteBee,
   clienteJutaLuz,
+  clienteMoxilann,
+  clienteAarteyatu,
 };

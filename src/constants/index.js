@@ -1,30 +1,49 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, clienteBee, clienteJutaLuz  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+  clienteBee,
+  clienteJutaLuz,
+  clienteMoxilann,
+  clienteAarteyatu,
+} from "../assets";
 
 export const navLinks = [
   {
     id: "home",
     title: "Home",
-    link:'/',
+    link: "/",
   },
   {
     id: "sobrenos",
     title: "Serviços",
-    link:'/servicos',
+    link: "/servicos",
   },
   {
     id: "portfolio",
     title: "Portfólio",
-    link:'/portfolio',
+    link: "/portfolio",
   },
   {
     id: "about",
     title: "Sobre Nós",
-    link:'/about',
+    link: "/about",
   },
   {
     id: "contact",
     title: "Contacto",
-    link:'/contact'
+    link: "/contact",
   },
 ];
 
@@ -109,24 +128,29 @@ export const footerLinks = [
     title: "Links Úteis",
     links: [
       {
+        id: "home",
         name: "Home",
-        link: "https://www.hoobank.com/content/",
+        link: "/",
       },
       {
-        name: "Sobre Nós",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Serviços",
+        id: "sobrenos",
+        link: "/servicos",
       },
       {
+        id: "portfolio",
         name: "Portfólio",
-        link: "https://www.hoobank.com/create/",
+        link: "/portfolio",
       },
       {
-        name: "Clientes",
-        link: "https://www.hoobank.com/explore/",
+        id: "about",
+        name: "Sobre Nós",
+        link: "/about",
       },
       {
+        id: "contact",
         name: "Contato",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "/contact",
       },
     ],
   },
@@ -135,23 +159,23 @@ export const footerLinks = [
     links: [
       {
         name: "Design Gráfico",
-        link: "https://www.hoobank.com/help-center/",
+        link: "/servicos",
       },
       {
         name: "Gestão de redes sociais",
-        link: "https://www.hoobank.com/partners/",
+        link: "/servicos",
       },
       {
         name: "Tráfego Pago",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "/servicos",
       },
       {
         name: "Desenvolvimento",
-        link: "https://www.hoobank.com/blog/",
+        link: "/servicos",
       },
       {
         name: "Outros",
-        link: "#contact",
+        link: "/servicos",
       },
     ],
   },
@@ -160,15 +184,15 @@ export const footerLinks = [
     links: [
       {
         name: "+244 948 880 797",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://wa.me/244948880797",
       },
       {
         name: "geral@kaizenti.ao",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "geral@kaizenti.ao",
       },
       {
         name: "Morro Bento, Luanda -Angola",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://maps.app.goo.gl/QFLLjpa6prU2hHmN8",
       },
     ],
   },
@@ -205,16 +229,16 @@ export const clients = [
     id: "client-1",
     logo: clienteBee,
   },
+  // {
+  //   id: "client-2",
+  //   logo: clienteJutaLuz,
+  // },
   {
-    id: "client-2",
-    logo: clienteJutaLuz,
+    id: "client-3",
+    logo: clienteAarteyatu,
   },
-  // {
-  //   id: "client-3",
-  //   logo: coinbase,
-  // },
-  // {
-  //   id: "client-4",
-  //   logo: dropbox,
-  // },
+  {
+    id: "client-4",
+    logo: clienteMoxilann,
+  },
 ];
