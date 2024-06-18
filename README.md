@@ -1,4 +1,4 @@
-# HooBank - Modern UI/UX website using React.js & Tailwind CSS
+# Kaizen TI Modern UI/UX website using React.js & Tailwind CSS
 
 <img width="949" alt="image" src="https://github.com/Kaizen-TI/frontend-kaizen/assets/168314272/117eb49d-c4ae-41f4-81ac-aae4441ba3ee">
 
@@ -6,8 +6,8 @@
 ### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
 
 ### Showcase your dev skills with practical experience and land the coding career of your dreams
-💻 JS Mastery Pro - https://jsmastery.pro/youtube
-✅ A special YOUTUBE discount code is automatically applied!
+💻 JS Mastery
+✅ A special automatically applied!
 
-📙 Get the Ultimate Frontend & Backend Development Roadmaps, a Complete JavaScript Cheatsheet, Portfolio Tips, and more - https://www.jsmastery.pro/links
+📙 Get the Ultimate Frontend & Backend Development!
 # frontend-kaizen
