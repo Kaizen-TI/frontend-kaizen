@@ -1,6 +1,6 @@
 # HooBank - Modern UI/UX website using React.js & Tailwind CSS
 
-![HooBank](https://i.ibb.co/BK1Hn0x/Screenshot-2022-08-08-at-4-05-48-PM.png)
+<img width="949" alt="image" src="https://github.com/Kaizen-TI/frontend-kaizen/assets/168314272/117eb49d-c4ae-41f4-81ac-aae4441ba3ee">
 
 ### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
 ### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
