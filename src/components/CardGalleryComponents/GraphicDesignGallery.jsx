@@ -9,8 +9,8 @@ import {
 export default function GraphicDesignGallery() {
   const data = [
     {
-      label: "HTML",
-      value: "html",
+      label: "Logotipos",
+      value: "logotipos",
       images: [
         {
           imageLink:
@@ -39,8 +39,8 @@ export default function GraphicDesignGallery() {
       ],
     },
     {
-      label: "React",
-      value: "react",
+      label: "Manual de Marca",
+      value: "manual",
       images: [
         {
           imageLink:
@@ -69,8 +69,8 @@ export default function GraphicDesignGallery() {
       ],
     },
     {
-      label: "Vue",
-      value: "vue",
+      label: "Papéis Timbrados e Cartões de Visita",
+      value: "papeis",
       images: [
         {
           imageLink:
@@ -99,8 +99,8 @@ export default function GraphicDesignGallery() {
       ],
     },
     {
-      label: "Angular",
-      value: "angular",
+      label: "Banners e Animações",
+      value: "banner",
       images: [
         {
           imageLink:
@@ -129,8 +129,8 @@ export default function GraphicDesignGallery() {
       ],
     },
     {
-      label: "Svelte",
-      value: "svelte",
+      label: "Revistas e Catálogos",
+      value: "revistas",
       images: [
         {
           imageLink:
@@ -161,7 +161,7 @@ export default function GraphicDesignGallery() {
   ];
  
   return (
-    <Tabs value="html">
+    <Tabs value="logotipos">
       <TabsHeader>
         {data.map(({ label, value }) => (
           <Tab key={value} value={value}>
@@ -172,14 +172,14 @@ export default function GraphicDesignGallery() {
       <TabsBody className="grid grid-cols-1 gap-4 ">
         {data.map(({ value, images }) => (
           <TabPanel
-            className="grid grid-cols-2 gap-4 md:grid-cols-3"
+            className="grid grid-cols-2 gap-4 md:grid-cols-2"
             key={value}
             value={value}
           >
             {images?.map(({ imageLink }, index) => (
               <div key={index}>
                 <img
-                  className="h-40 w-full max-w-full rounded-lg object-cover object-center"
+                  className="h-1800 w-1800 max-w-1800 rounded-lg object-cover object-center"
                   src={imageLink}
                   alt="image-photo"
                 />

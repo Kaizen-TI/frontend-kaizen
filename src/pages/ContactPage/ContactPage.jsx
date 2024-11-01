@@ -63,7 +63,7 @@ function ContactPage() {
                   <p className="pl-4 text-white text-base">geral@kaizenti.ao</p>
                 </div>
                 <p className="text-lg text-white pt-10 tracking-wide">
-                  35, Avenida 21 de janiro, Morro Bento
+                  35, Avenida 21 de janeiro, Morro Bento
                   <br />
                   Bellas Luanda, Angola
                 </p>

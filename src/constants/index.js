@@ -17,6 +17,8 @@ import {
   clienteJutaLuz,
   clienteMoxilann,
   clienteAarteyatu,
+  clienteEtic,
+  clienteFimpest
 } from "../assets";
 
 export const navLinks = [
@@ -82,27 +84,35 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "Obrigado pelo bom trabalho, gostei! Vamos em frente!",
+    name: "Filipe Baptista",
+    title: "Managing Director na ETIC",
+    img: "https://media.licdn.com/dms/image/D4D03AQHU4wCyHReFEw/profile-displayphoto-shrink_800_800/0/1689587476066?e=1727308800&v=beta&t=NkOssXLezrQYSStu8GPUDVPia_WnwcsFIi1XtrSLZY8",
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Saudações prezados, Espero que estejam todos bem, passando para agradecer pela prestação de serviço... podemos sentir os efeitos dos vossos serviços!",
+    name: "João Cabanga",
+    title: "Founder & Leader na Moxilan",
+    img: "https://media.licdn.com/dms/image/D4D03AQH-JjMi2_TmNg/profile-displayphoto-shrink_800_800/0/1718826117237?e=1727308800&v=beta&t=WZ3gdxHuC0J-NttU1VTCIjMyP0arRldVtCranAvKbv8",
   },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
+  // {
+  //   id: "feedback-2",
+  //   content:
+  //     "Money makes your life easier. If you're lucky to have it, you're lucky.",
+  //   name: "Steve Mark",
+  //   title: "Founder & Leader",
+  //   img: people02,
+  // },
+  // {
+  //   id: "feedback-3",
+  //   content:
+  //     "It is usually people in the money business, finance, and international trade that are really rich.",
+  //   name: "Kenn Gallagher",
+  //   title: "Founder & Leader",
+  //   img: people03,
+  // },
 ];
 
 export const stats = [
@@ -229,10 +239,10 @@ export const clients = [
     id: "client-1",
     logo: clienteBee,
   },
-  // {
-  //   id: "client-2",
-  //   logo: clienteJutaLuz,
-  // },
+  {
+    id: "client-2",
+    logo: clienteFimpest,
+  },
   {
     id: "client-3",
     logo: clienteAarteyatu,
@@ -240,5 +250,9 @@ export const clients = [
   {
     id: "client-4",
     logo: clienteMoxilann,
+  },
+  {
+    id: "client-5",
+    logo: clienteEtic,
   },
 ];

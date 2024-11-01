@@ -66,7 +66,7 @@ export default function CardGallery() {
               </button>
             </li>
           </ul>
-          {/* <div id="defaultTabContent">
+          <div id="defaultTabContent">
             <div
               className="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800"
               id="about"
@@ -178,7 +178,7 @@ export default function CardGallery() {
             >
                 <GraphicDesignGallery/>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
