@@ -1,13 +1,14 @@
 const links = [
-    { name: 'Candidatura', href: '#' },
-    { name: 'Programas interno', href: '#' },
-    { name: 'Vossos Valores', href: '#' },
-    { name: 'Saiba mais', href: '#' },
+    { name: 'Briefing', href: '#' },
+    { name: 'Planejamento', href: '#' },
+    { name: 'Brainstorm', href: '#' },
+    { name: 'Criação', href: '#' },
+    { name: 'Ajustes', href: '#' },
   ]
   const stats = [
-    { name: 'Angola, Luanda', value: '12' },
-    { name: 'Colegas em tempo integral', value: '3+' },
-    { name: 'Horas por semana', value: '40'},
+    { name: 'Projectos', value: '+17' },
+    { name: 'Clientes', value: '+5' },
+    { name: 'Parceiros', value: '+10'},
     //  { name: 'Paid time off', value: 'Unlimited' },
   ]
   
@@ -45,10 +46,9 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Trabalhe Conosco</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Kaizen TI</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-            Entre em contato conosco hoje para saber mais sobre como podemos ajudar a elevar sua presença online para o próximo nível.
-            </p>
+            Confie na Kaizen TI para elevar sua presença digital e otimizar suas operações tecnológicas, garantindo inovação, eficiência e segurança em todas as suas atividades.            </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">

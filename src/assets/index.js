@@ -35,6 +35,8 @@ import clienteBee from "./clientes/clienteBee.png";
 import clienteJutaLuz from "./clientes/clienteJutaLuz.jpg"
 import clienteMoxilann from "./clientes/moxilann.jpg"
 import clienteAarteyatu from "./clientes/aarteyetu.jpg"
+import clienteEtic from "./clientes/etic_angola_logo.jpeg"
+import clienteFimpest from "./clientes/fimpest_logo.jpeg"
 
 export {
   airbnb,
@@ -74,4 +76,6 @@ export {
   clienteJutaLuz,
   clienteMoxilann,
   clienteAarteyatu,
+  clienteEtic,
+  clienteFimpest,
 };

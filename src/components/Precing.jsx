@@ -22,7 +22,7 @@ export default function Precing() {
                   <h2 className="font-bold text-3xl sm:text-4xl md:text-[40px] text-white mb-4">
                     Gestão e monitoramento de redes sociais
                   </h2>
-                  <p className="text-base text-paragraph2">
+                  <p className="text-base  text-dimWhite text-paragraph2">
                     Projetado para ajudar empresas de todos os tamanhos a
                     maximizar sua presença online, engajar seu público-alvo e
                     alcançar seus objetivos de negócios..
@@ -107,44 +107,8 @@ export default function Precing() {
                         Facebook e Instagram
                       </p>
                     </div>
-                    <div className="flex ">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="text-red-700 size-8"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M6 18 18 6M6 6l12 12"
-                        />
-                      </svg>
-                      <p className="text-base text-body-color leading-loose mb-1">
-                        30% do investimento em Gestão de tráfego Angola
-                      </p>
-                    </div>
-                    <div className="flex ">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="text-red-700 size-8"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M6 18 18 6M6 6l12 12"
-                        />
-                      </svg>
-                      <p className="text-base text-body-color leading-loose mb-1">
-                        Criação de anúncios nas redes sociais
-                      </p>
-                    </div>
+                    
+                    
                     <div className="flex ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -209,16 +173,16 @@ export default function Precing() {
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
                         stroke="currentColor"
-                        className="text-red-700 size-8"
+                        className="text-green-500 size-6"
                       >
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          d="M6 18 18 6M6 6l12 12"
+                          d="m4.5 12.75 6 6 9-13.5"
                         />
                       </svg>
                       <p className="text-base text-body-color leading-loose mb-1">
-                        2 vídeos animado por semana
+                        1 vídeos animado por semana
                       </p>
                     </div>
                     <div className="flex ">
@@ -247,44 +211,6 @@ export default function Precing() {
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
                         stroke="currentColor"
-                        className="text-red-700 size-8"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M6 18 18 6M6 6l12 12"
-                        />
-                      </svg>
-                      <p className="text-base text-body-color leading-loose mb-1">
-                        Captação de clientes por WhatsApp ou Messenger
-                      </p>
-                    </div>
-                    <div className="flex ">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="text-red-700 size-8"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M6 18 18 6M6 6l12 12"
-                        />
-                      </svg>
-                      <p className="text-base text-body-color leading-loose mb-1">
-                        Gestão de anúncios no Instagram, Facebook
-                      </p>
-                    </div>
-                    <div className="flex ">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
                         className="text-green-500 size-6"
                       >
                         <path
@@ -297,25 +223,7 @@ export default function Precing() {
                         Relatórios mensais
                       </p>
                     </div>
-                    <div className="flex ">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="text-red-700 size-8"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M6 18 18 6M6 6l12 12"
-                        />
-                      </svg>
-                      <p className="text-base text-body-color leading-loose mb-1">
-                        1 Domínio + 5 Constas de Email profissonal por 1 ano (Bônus)
-                      </p>
-                    </div>
+                  
                   </div>
                   <a
                     href="javascript:void(0)"
@@ -631,7 +539,7 @@ export default function Precing() {
                     Plano Vali
                   </span>
                   <h2 className="font-bold text-dark mb-5 text-[32px]">
-                    229.999.00 Kz
+                    179.999.00 Kz
                     <span className="text-base text-body-color font-medium">
                       / Mês
                     </span>
@@ -798,7 +706,7 @@ export default function Precing() {
                         />
                       </svg>
                       <p className="text-base text-body-color leading-loose mb-1">
-                        2 vídeos animado por semana
+                        3 vídeos animado por semana
                       </p>
                     </div>
                     <div className="flex ">
@@ -1211,7 +1119,7 @@ export default function Precing() {
                     Plano Tatu
                   </span>
                   <h2 className="font-bold text-dark mb-5 text-[32px]">
-                    129.999.00 Kz
+                    119.999.00 Kz
                     <span className="text-base text-body-color font-medium">
                       / Mês
                     </span>
@@ -1273,16 +1181,16 @@ export default function Precing() {
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
                         stroke="currentColor"
-                        className="text-red-700 size-8"
+                        className="text-green-500 size-6"
                       >
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          d="M6 18 18 6M6 6l12 12"
+                          d="m4.5 12.75 6 6 9-13.5"
                         />
                       </svg>
                       <p className="text-base text-body-color leading-loose mb-1">
-                        30% do investimento em Gestão de tráfego Angola
+                        20% do investimento em Gestão de tráfego Angola
                       </p>
                     </div>
                     <div className="flex ">
@@ -1377,7 +1285,7 @@ export default function Precing() {
                         />
                       </svg>
                       <p className="text-base text-body-color leading-loose mb-1">
-                        1 vídeos animado por semana
+                        2 vídeos animado por semana
                       </p>
                     </div>
                     <div className="flex ">
@@ -1456,25 +1364,7 @@ export default function Precing() {
                         Relatórios mensais
                       </p>
                     </div>
-                    <div className="flex ">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="text-red-700 size-8"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M6 18 18 6M6 6l12 12"
-                        />
-                      </svg>
-                      <p className="text-base text-body-color leading-loose mb-1">
-                        1 Domínio + 5 Constas de Email profissonal por 1 ano (Bônus)
-                      </p>
-                    </div>
+                  
                   </div>
                   <a
                     href="javascript:void(0)"

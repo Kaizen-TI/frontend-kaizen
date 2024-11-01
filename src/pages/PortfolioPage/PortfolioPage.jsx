@@ -9,7 +9,7 @@ function PortfolioPage() {
         className={`bg-primary mt-20  w-full ${styles.paddingY} ${styles.flexCenter}`}
       >
         <div className={`${styles.boxWidth}`}>
-          <CardGallery />
+          {/* <CardGallery /> */}
         </div>
       </div>
       <Footer />

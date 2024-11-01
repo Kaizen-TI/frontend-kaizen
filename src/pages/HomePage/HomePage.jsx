@@ -30,7 +30,7 @@ function HomePage() {
             <Business />
             <Billing />
             <CardDeal />
-            {/* <Testimonials /> */}
+            <Testimonials />
             <Clients />
             <CTA />
             <Contact />
